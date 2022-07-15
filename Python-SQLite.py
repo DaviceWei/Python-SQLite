@@ -43,7 +43,7 @@ while True:
                  
     #mprint("数据库：")
     if awa !="exit":
-        get_info = "insert into info_database (IP_ADDRESS, CLI_MSG, TIME) values ('"+ip+"', '"+msg+"', '"+datetime.now().strftime('%Y-%m-%d %H:%M:%S')+"')"
+        get_info = "insert into info_database (IP_ADDRESS, CLI_MSG, TIME) values ('"+awa+"', '"+awa+"2"+"', '"+datetime.now().strftime('%Y-%m-%d %H:%M:%S')+"')"
         conndb.execute(get_info)
     else:
         break
